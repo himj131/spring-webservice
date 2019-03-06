@@ -1,0 +1,9 @@
+spring:
+  h2:
+    console:
+      enabled: true
+  jpa:
+    show-sql: true  #show query
+    properties:     #콘솔 로그 줄바꿈 처리
+      hibernate:
+        format_sql: true
